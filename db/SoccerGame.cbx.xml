@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="SoccerGame">
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_mult_cell:the_Video_System_CPU_mult_cell|altera_mult_add:the_altmult_add_part_1|altera_mult_add_mpt2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_1l01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_mult_cell:the_Video_System_CPU_mult_cell|altera_mult_add:the_altmult_add_part_2" CBX_FILE_NAME="altera_mult_add_opt2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_Onchip_Memory:onchip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_49d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_Pixel_Buffer_DMA:pixel_buffer_dma|scfifo:Image_Buffer" CBX_FILE_NAME="scfifo_70a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_jtag_uart_0:jtag_uart_0|Video_System_jtag_uart_0_scfifo_r:the_Video_System_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_ic_data_module:Video_System_CPU_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_k9d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_ic_tag_module:Video_System_CPU_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_k9h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_nios2_oci:the_Video_System_CPU_nios2_oci|Video_System_CPU_nios2_ocimem:the_Video_System_CPU_nios2_ocimem|Video_System_CPU_ociram_sp_ram_module:Video_System_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ev71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_register_bank_b_module:Video_System_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_u2h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|lpm_add_sub:Add8" CBX_FILE_NAME="add_sub_8ri.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_Dual_Clock_FIFO:dual_clock_fifo|dcfifo:Data_FIFO" CBX_FILE_NAME="dcfifo_5oj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_Pixel_Scaler:pixel_scaler|altera_up_video_scaler_multiply_height:Multiply_Height|scfifo:Multiply_Height_FIFO" CBX_FILE_NAME="scfifo_qd31.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_mult_cell:the_Video_System_CPU_mult_cell|altera_mult_add:the_altmult_add_part_1" CBX_FILE_NAME="altera_mult_add_mpt2.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_mult_cell:the_Video_System_CPU_mult_cell|altera_mult_add:the_altmult_add_part_2|altera_mult_add_opt2:auto_generated|altera_mult_add_rtl:altera_mult_add_rtl1|ama_multiplier_function:multiplier_block|lpm_mult:Mult0" CBX_FILE_NAME="mult_1s01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_CPU:cpu|Video_System_CPU_register_bank_a_module:Video_System_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_t2h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SoccerGame|Video_System:inst|Video_System_jtag_uart_0:jtag_uart_0|Video_System_jtag_uart_0_scfifo_w:the_Video_System_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

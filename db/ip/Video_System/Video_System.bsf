@@ -1,0 +1,191 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 576 480)
+	(text "Video_System" (rect 245 -1 306 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 464 20 476)(font "Arial" ))
+	(port
+		(pt 0 192)
+		(input)
+		(text "clk_0" (rect 0 0 21 12)(font "Arial" (font_size 8)))
+		(text "clk_0" (rect 4 181 34 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 256 192)(line_width 1))
+	)
+	(port
+		(pt 0 232)
+		(input)
+		(text "reset_n" (rect 0 0 30 12)(font "Arial" (font_size 8)))
+		(text "reset_n" (rect 4 221 46 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 256 232)(line_width 1))
+	)
+	(port
+		(pt 0 408)
+		(input)
+		(text "key_pio_external_connection_export[3..0]" (rect 0 0 166 12)(font "Arial" (font_size 8)))
+		(text "key_pio_external_connection_export[3..0]" (rect 4 397 244 408)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 256 408)(line_width 3))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "sw_pio_external_connection_export" (rect 0 0 141 12)(font "Arial" (font_size 8)))
+		(text "sw_pio_external_connection_export" (rect 4 437 202 448)(font "Arial" (font_size 8)))
+		(line (pt 0 448)(pt 256 448)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "VGA_CLK_from_the_VGA_Controller" (rect 0 0 166 12)(font "Arial" (font_size 8)))
+		(text "VGA_CLK_from_the_VGA_Controller" (rect 4 61 190 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 256 72)(line_width 1))
+	)
+	(port
+		(pt 0 88)
+		(output)
+		(text "VGA_HS_from_the_VGA_Controller" (rect 0 0 159 12)(font "Arial" (font_size 8)))
+		(text "VGA_HS_from_the_VGA_Controller" (rect 4 77 184 88)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 256 88)(line_width 1))
+	)
+	(port
+		(pt 0 104)
+		(output)
+		(text "VGA_VS_from_the_VGA_Controller" (rect 0 0 160 12)(font "Arial" (font_size 8)))
+		(text "VGA_VS_from_the_VGA_Controller" (rect 4 93 184 104)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 256 104)(line_width 1))
+	)
+	(port
+		(pt 0 120)
+		(output)
+		(text "VGA_R_from_the_VGA_Controller[3..0]" (rect 0 0 174 12)(font "Arial" (font_size 8)))
+		(text "VGA_R_from_the_VGA_Controller[3..0]" (rect 4 109 214 120)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 256 120)(line_width 3))
+	)
+	(port
+		(pt 0 136)
+		(output)
+		(text "VGA_G_from_the_VGA_Controller[3..0]" (rect 0 0 173 12)(font "Arial" (font_size 8)))
+		(text "VGA_G_from_the_VGA_Controller[3..0]" (rect 4 125 214 136)(font "Arial" (font_size 8)))
+		(line (pt 0 136)(pt 256 136)(line_width 3))
+	)
+	(port
+		(pt 0 152)
+		(output)
+		(text "VGA_B_from_the_VGA_Controller[3..0]" (rect 0 0 172 12)(font "Arial" (font_size 8)))
+		(text "VGA_B_from_the_VGA_Controller[3..0]" (rect 4 141 214 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 256 152)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(output)
+		(text "SRAM_ADDR_from_the_Pixel_Buffer[17..0]" (rect 0 0 189 12)(font "Arial" (font_size 8)))
+		(text "SRAM_ADDR_from_the_Pixel_Buffer[17..0]" (rect 4 277 232 288)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 256 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(output)
+		(text "SRAM_LB_N_from_the_Pixel_Buffer" (rect 0 0 160 12)(font "Arial" (font_size 8)))
+		(text "SRAM_LB_N_from_the_Pixel_Buffer" (rect 4 293 190 304)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 256 304)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "SRAM_UB_N_from_the_Pixel_Buffer" (rect 0 0 161 12)(font "Arial" (font_size 8)))
+		(text "SRAM_UB_N_from_the_Pixel_Buffer" (rect 4 309 190 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 256 320)(line_width 1))
+	)
+	(port
+		(pt 0 336)
+		(output)
+		(text "SRAM_CE_N_from_the_Pixel_Buffer" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "SRAM_CE_N_from_the_Pixel_Buffer" (rect 4 325 190 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 256 336)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "SRAM_OE_N_from_the_Pixel_Buffer" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "SRAM_OE_N_from_the_Pixel_Buffer" (rect 4 341 190 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 256 352)(line_width 1))
+	)
+	(port
+		(pt 0 368)
+		(output)
+		(text "SRAM_WE_N_from_the_Pixel_Buffer" (rect 0 0 166 12)(font "Arial" (font_size 8)))
+		(text "SRAM_WE_N_from_the_Pixel_Buffer" (rect 4 357 190 368)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 256 368)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(bidir)
+		(text "SRAM_DQ_to_and_from_the_Pixel_Buffer[15..0]" (rect 0 0 206 12)(font "Arial" (font_size 8)))
+		(text "SRAM_DQ_to_and_from_the_Pixel_Buffer[15..0]" (rect 4 261 262 272)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 256 272)(line_width 3))
+	)
+	(drawing
+		(text "VGA_Controller_external_interface" (rect 54 43 306 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "CLK" (rect 261 67 540 144)(font "Arial" (color 0 0 0)))
+		(text "HS" (rect 261 83 534 176)(font "Arial" (color 0 0 0)))
+		(text "VS" (rect 261 99 534 208)(font "Arial" (color 0 0 0)))
+		(text "R" (rect 261 115 528 240)(font "Arial" (color 0 0 0)))
+		(text "G" (rect 261 131 528 272)(font "Arial" (color 0 0 0)))
+		(text "B" (rect 261 147 528 304)(font "Arial" (color 0 0 0)))
+		(text "clk_0_clk_in" (rect 184 163 440 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 261 187 540 384)(font "Arial" (color 0 0 0)))
+		(text "clk_0_clk_in_reset" (rect 146 203 400 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 261 227 564 464)(font "Arial" (color 0 0 0)))
+		(text "Pixel_Buffer_external_interface" (rect 72 243 330 499)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "DQ" (rect 261 267 534 544)(font "Arial" (color 0 0 0)))
+		(text "ADDR" (rect 261 283 546 576)(font "Arial" (color 0 0 0)))
+		(text "LB_N" (rect 261 299 546 608)(font "Arial" (color 0 0 0)))
+		(text "UB_N" (rect 261 315 546 640)(font "Arial" (color 0 0 0)))
+		(text "CE_N" (rect 261 331 546 672)(font "Arial" (color 0 0 0)))
+		(text "OE_N" (rect 261 347 546 704)(font "Arial" (color 0 0 0)))
+		(text "WE_N" (rect 261 363 546 736)(font "Arial" (color 0 0 0)))
+		(text "key_pio_external_connection" (rect 89 379 340 771)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 261 403 558 816)(font "Arial" (color 0 0 0)))
+		(text "sw_pio_external_connection" (rect 92 419 340 851)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 261 443 558 896)(font "Arial" (color 0 0 0)))
+		(text " Video_System " (rect 509 464 1102 938)(font "Arial" ))
+		(line (pt 257 52)(pt 257 156)(line_width 1))
+		(line (pt 258 52)(pt 258 156)(line_width 1))
+		(line (pt 257 172)(pt 257 196)(line_width 1))
+		(line (pt 258 172)(pt 258 196)(line_width 1))
+		(line (pt 257 212)(pt 257 236)(line_width 1))
+		(line (pt 258 212)(pt 258 236)(line_width 1))
+		(line (pt 257 252)(pt 257 372)(line_width 1))
+		(line (pt 258 252)(pt 258 372)(line_width 1))
+		(line (pt 257 388)(pt 257 412)(line_width 1))
+		(line (pt 258 388)(pt 258 412)(line_width 1))
+		(line (pt 257 428)(pt 257 452)(line_width 1))
+		(line (pt 258 428)(pt 258 452)(line_width 1))
+		(line (pt 256 32)(pt 320 32)(line_width 1))
+		(line (pt 320 32)(pt 320 464)(line_width 1))
+		(line (pt 256 464)(pt 320 464)(line_width 1))
+		(line (pt 256 32)(pt 256 464)(line_width 1))
+		(line (pt 0 0)(pt 576 0)(line_width 1))
+		(line (pt 576 0)(pt 576 480)(line_width 1))
+		(line (pt 0 480)(pt 576 480)(line_width 1))
+		(line (pt 0 0)(pt 0 480)(line_width 1))
+	)
+)

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="271" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="516" />
+   <clocksource preferredWidth="515" />
+   <frequency preferredWidth="499" />
+  </columns>
+ </clocktable>
+ <library
+   expandedCategories="Library/University Program/Audio &amp; Video,Project,Library,Library/University Program/Audio &amp; Video/Video,Library/University Program" />
+ <window width="1920" height="1040" x="0" y="0" />
+ <generation synthesis="VHDL" />
+</preferences>

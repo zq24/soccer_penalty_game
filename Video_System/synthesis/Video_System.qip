@@ -1,0 +1,186 @@
+set_global_assignment -entity "Video_System" -library "Video_System" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "Video_System" -library "Video_System" -name IP_TOOL_VERSION "13.0sp1"
+set_global_assignment -entity "Video_System" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "Video_System" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../Video_System.sopcinfo"]
+set_instance_assignment -entity "Video_System" -library "Video_System" -name SLD_INFO "QSYS_NAME Video_System HAS_SOPCINFO 1 GENERATION_ID 1477943218"
+set_global_assignment -library "Video_System" -name MISC_FILE [file join $::quartus(qip_path) "../../Video_System.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "Video_System" -name MISC_FILE [file join $::quartus(qip_path) "../../Video_System.qsys"]
+
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "Video_System.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_avalon_sram_slave_translator_avalon_universal_slave_0_agent_rsp_fifo.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_avalon_sram_slave_translator_avalon_universal_slave_0_agent_rdata_fifo.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_avalon_sram_slave_translator_avalon_universal_slave_0_agent.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_width_adapter.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_width_adapter_001.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_cpu_instruction_master_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_cpu_data_master_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_dma_avalon_pixel_dma_master_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_cpu_jtag_debug_module_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_onchip_memory_s1_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_avalon_sram_slave_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_dma_avalon_control_slave_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_sw_pio_s1_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_jtag_uart_0_avalon_jtag_slave_translator.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_rst_controller.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_rst_controller_001.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_rst_controller_003.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_cpu_instruction_master_translator_avalon_universal_master_0_agent.vhd"]
+set_global_assignment -library "Video_System" -name VHDL_FILE [file join $::quartus(qip_path) "video_system_pixel_buffer_dma_avalon_pixel_dma_master_translator_avalon_universal_master_0_agent.vhd"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_irq_mapper.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_width_adapter.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_address_alignment.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_rsp_xbar_mux_001.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_rsp_xbar_mux.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_rsp_xbar_demux_003.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_rsp_xbar_demux_002.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_rsp_xbar_demux.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_cmd_xbar_mux_002.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_cmd_xbar_mux.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_cmd_xbar_demux_002.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_cmd_xbar_demux_001.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_cmd_xbar_demux.sv"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "Video_System" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_adapter.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_traffic_limiter.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_pipeline_base.v"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_id_router_003.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_id_router_002.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_id_router.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_addr_router_002.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_addr_router_001.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_addr_router.sv"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "Video_System" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_jtag_uart_0.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_SW_PIO.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Key_PIO.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Clock_Signals.v"]
+set_global_assignment -library "Video_System" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU.ocp"]
+set_global_assignment -library "Video_System" -name SDC_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU.sdc"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU.v"]
+set_global_assignment -library "Video_System" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_ic_tag_ram.mif"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_jtag_debug_module_tck.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_mult_cell.v"]
+set_global_assignment -library "Video_System" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_ociram_default_contents.mif"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_oci_test_bench.v"]
+set_global_assignment -library "Video_System" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_rf_ram_a.mif"]
+set_global_assignment -library "Video_System" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_rf_ram_b.mif"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_CPU_test_bench.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_up_avalon_video_vga_timing.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_VGA_Controller.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_up_video_scaler_shrink.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_up_video_scaler_multiply_width.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_up_video_scaler_multiply_height.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Pixel_Scaler.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Pixel_RGB_Resampler.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Pixel_Buffer_DMA.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Pixel_Buffer.v"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Dual_Clock_FIFO.v"]
+set_global_assignment -library "Video_System" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/Video_System_Onchip_Memory.hex"]
+set_global_assignment -library "Video_System" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/Video_System_Onchip_Memory.v"]
+
+set_global_assignment -entity "Video_System_irq_mapper" -library "Video_System" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "Video_System_irq_mapper" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_irq_mapper" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_width_adapter"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_rsp_xbar_mux_001" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Video_System_rsp_xbar_mux_001" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_rsp_xbar_mux_001" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_rsp_xbar_mux" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Video_System_rsp_xbar_mux" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_rsp_xbar_mux" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_rsp_xbar_demux_003" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Video_System_rsp_xbar_demux_003" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_rsp_xbar_demux_003" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_rsp_xbar_demux_002" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Video_System_rsp_xbar_demux_002" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_rsp_xbar_demux_002" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_rsp_xbar_demux" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Video_System_rsp_xbar_demux" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_rsp_xbar_demux" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_cmd_xbar_mux_002" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Video_System_cmd_xbar_mux_002" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_cmd_xbar_mux_002" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_cmd_xbar_mux" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "Video_System_cmd_xbar_mux" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_cmd_xbar_mux" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_cmd_xbar_demux_002" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Video_System_cmd_xbar_demux_002" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_cmd_xbar_demux_002" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_cmd_xbar_demux_001" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Video_System_cmd_xbar_demux_001" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_cmd_xbar_demux_001" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_cmd_xbar_demux" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "Video_System_cmd_xbar_demux" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_cmd_xbar_demux" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_reset_controller" -library "Video_System" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_reset_controller" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_burst_adapter"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_traffic_limiter"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_id_router_003" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Video_System_id_router_003" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_id_router_003" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_id_router_002" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Video_System_id_router_002" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_id_router_002" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_id_router" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Video_System_id_router" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_id_router" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_addr_router_002" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Video_System_addr_router_002" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_addr_router_002" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_addr_router_001" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Video_System_addr_router_001" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_addr_router_001" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_addr_router" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "Video_System_addr_router" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_addr_router" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "Video_System" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_slave_agent"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_agent" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_master_agent"
+set_global_assignment -entity "altera_merlin_master_agent" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_agent" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Video_System" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_translator" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_jtag_uart_0" -library "Video_System" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "Video_System_jtag_uart_0" -library "Video_System" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "Video_System_jtag_uart_0" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_SW_PIO" -library "Video_System" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "Video_System_SW_PIO" -library "Video_System" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "Video_System_SW_PIO" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_Key_PIO" -library "Video_System" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "Video_System_Key_PIO" -library "Video_System" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "Video_System_Key_PIO" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_CPU" -library "Video_System" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "Video_System_CPU" -library "Video_System" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "Video_System_CPU" -library "Video_System" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "Video_System_Onchip_Memory" -library "Video_System" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
+set_global_assignment -entity "Video_System_Onchip_Memory" -library "Video_System" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "Video_System_Onchip_Memory" -library "Video_System" -name IP_TOOL_ENV "Qsys"
